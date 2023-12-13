@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.nav-link{
+    padding-top: 1.5rem;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    position: fixed;
+    z-index: 100000;
+    width: 100%;
+}
+
+
+.header h2{
+font-size: 2rem;
+font-weight: bold;
+color: #94dc27;
+letter-spacing: 3px;
+}
+
+.header span{
+    color: rgb(97, 210, 230);
+}
+
+
+.nav-link ul{
+display: flex;
+gap: 3rem;
+align-items: center;
+}
+
+li{
+list-style: none;
+text-transform: uppercase;
+font-weight: 500;
+font-size: 18px;
+letter-spacing: 3px;
+transition: 0.6s;
+}
+
+li a{
+text-decoration: none;
+color: rgb(97, 210, 230);
+border-radius: 1rem;
+padding: 5px 1rem;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 18px;
+font-weight: 500;
+}
+
+
+li a:hover{
+background-color: rgb(97, 210, 230);
+color: #fff;
+
+}
+
+.banner{
+height: 100vh;
+width: 100%;
+position: absolute;
+background-size: cover;
+top: 0;
+z-index: -1;
+background-image: url('images/carl3.jpg');
+padding: 0;
+margin: 0;
+background-position: center;
+}
+
+.info{
+    color: rgb(97, 210, 230);
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    padding-top: 8rem;
+    font-weight: 200;
+    letter-spacing: 2px;
+}
+
+.section h4{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    text-transform: capitalize;
+    font-size: 1rem;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.contacts{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: -31rem;
+    left: .3rem;
+    width: 5rem;
+}
+
+
+.contacts a {
+    font-size: 36px;
+    padding-right: 10px;
+    padding: 2.57rem;
+}
+
+.contacts a:hover{
+    scale: 1.2;
+}
+
+
+.fa-facebook{
+    color: rgb(97, 210, 230);
+}
+
+.fa-github{
+    color: rgb(97, 210, 230);
+}
+
+.fa-envelope{
+    color: rgb(97, 210, 230);
+}
+
+.fa-instagram{
+    color: rgb(97, 210, 230);
+}
+
+.persue{
+    top: -3.2rem;
+    position: relative;
+}
+
+
+
+.persue h3{
+    color: aqua;
+    font-size: 1.2rem;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    bottom: -4rem;
+    position: relative;
+    margin-top: 60vh;
+}
+
+.persue p{
+    display: flex;
+    justify-content: center;
+    color: aqua;
+    font-size: 1.1rem;
+    position: relative;
+    bottom: -4rem;
+}
+.container{
+    width: 80%;
+    margin: 50px auto;
+}
+.contact-box{
+    display: flex;
+    background-color: #fff;
+
+}
+.contact-left{
+    flex-basis: 60%;
+    padding: 40px 60px
+
+}
+.contact-right{
+    flex-basis: 40%;
+    padding: 40px;
+    background: #1c00b5;
+    color:#fff;
+}
+h1{
+    margin-bottom: 10px;
+    color: bisque;
+}
+.container p{
+    margin-bottom: 40px;
+    color: #fff;
+}
+.input-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.imput-row .input-group{
+    flex-basis: 45%;
+}
+input{
+     width: 100%;
+     border: none;
+     border-bottom: 1px solid #ccc;
+     outline: none;
+     padding: 5px;
+}
+textarea{
+    width: 100%;
+    border: 1px solid #ccc;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+}
+label{
+    margin-bottom: 6px;
+    display: block;
+    color: #1c00b5;
+}
+button{
+    background-color: #1c00b5;
+    width: 100px;
+    border: none;
+    outline: none;
+    color:#fff;
+    height: 35px;
+    border-radius: 30px;
+    margin-top: 20px;
+    box-shadow: 0px 5px 15px 0px rgba(28,0,181,0.3);
+}
+
+
+   /* for destop View */
+   @media  screen and (min-width: 1024x) {
+        
+        
+   }
+    /* for tablet view */
+   @media screen and (min-device-width: 768px) and (max-width: 1024) {
+       
+   }
+   /* for mobile potrait view*/
+   @media screen and (max-device-width: 480px) and (orientation: portrait){
+    .contacts{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: -31rem;
+        left: .3rem;
+        width: 5rem;
+    }
+    .banner{
+        margin: 0;
+        padding: 0;
+    }
+   }
+   /* for mobile landscape view */
+   @media  screen and (max-device-width: 640px) and (orientation: landscape) {
+       
+   }
+   /* for mobile phone portrait or  landsscape view */
+   @media screen and(max-device-width: 640px) {
+       
+   }
+   
+   
